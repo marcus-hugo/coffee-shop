@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Marcus Hugo's demo Boostrap 5 website for a fictional cleaning service." />
+    <!-- Local Custom Bootstrap -->
+    <link rel="stylesheet" href="/dist/main.min.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <title>Coffee Shop</title>
+</head>
+
+<body class="body-color body-bg">
+    <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+
+    <!-- Bootstrap Header -->
+    <header class="bg-primary">
+        <!-- Discount Banner -->
+        <!-- <div class="text-center py-1 text-100 bg-primary">Save 15% off drip coffee!</div> -->
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    Coffee Shop
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link link-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="#" role="button">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="#contact" role="button">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="content">
+        <!-- Bootstrap Hero Section -->
+        <section class="d-flex justify-content-center align-items-center text-center bg-secondary">
+
+            <!-- Hero Full Image Example -->
+            <!-- <div class="bg-dark mx-2 p-4 col-md-6">
+                <h1 class="display-5 fw-bold">Welcome to Our Coffee Shop</h1>
+                <div class="">
+                    <p class="lead mb-4">
+                        We are independent and locally owned, known for our Brand Coffee
+                        Beverages, Sweet Brand Gelato, homemade treats.
+                    </p>
+                </div>
+            </div> -->
+
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6 mx-auto">
+                        <img src="images/nathan-dumlao-71u2foofi-u-unsplash.webp" width="640" height="960" class="d-block mx-lg-auto img-fluid" alt="coffee cup on plate"/>
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 text-primary fw-bold lh-1 mb-3">Welcome to our Coffee Shop</h1>
+                        <p class="lead">
+                            We are independent and locally owned, known for our Brand Coffee
+                            Beverages, Sweet Brand Gelato, homemade treats.
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <!-- <button type="button" class="btn border btn-lg px-4 me-md-2">CTA</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <!-- Bootstrap Menu Section -->
+        <section id="menu" class="pb-3 px-4 pt-5 bubbles-bg-pattern">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2 class="display-4">Our Menu</h2>
+                    <div><img src="/images/undraw_underline.svg" alt=""/></div>
+                    <p class="lead py-4">All coffee served in 16oz cup except expresso.</p>
+                </div>
+
+                <!-- Cards container -->
+                <div class="row row-cols-1 row-cols-md-3 my-5 text-center">
+
+                    <!-- Card -->
+                    <div class="col">
+                        <div class="card mb-4 border-0 shadow">
+                            <div class="py-3">
+                                <h3 class="card-title">Coffee</h3>
+                                <img src="/images/undraw_curved-underline.svg" height="" alt=""/>
+                            </div>
+                            <div class="card-body text-center pt-2 pb-5">
+                                <ul class="list-unstyled">
+                                    <li class="list-group-item p-0 border-0">House Blend - $2.00</li>
+                                    <li class="list-group-item p-0 border-0">Iced Coff - $2.25</li>
+                                    <li class="list-group-item p-0 border-0">Cold Brew - $3.00</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="col">
+                        <div class="card mb-4 border-0 shadow">
+                            <div class="py-3">
+                                <h3 class="card-title">Expresso</h3>
+                                <img src="/images/undraw_underline.svg" alt=""/>
+                            </div>
+                            <div class="card-body text-center pt-2 pb-5">
+                                <ul class="list-unstyled">
+                                    <li class="list-group-item p-0 border-0">Solo - $1.50</li>
+                                    <li class="list-group-item p-0 border-0">Doppio - $2.00</li>
+                                    <li class="list-group-item p-0 border-0">Americano - $3.00</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="col">
+                        <div class="card mb-4 border-0 shadow">
+                            <div class="py-3">
+                                <h3 class="card-title">Treats</h3>
+                                <img src="/images/undraw_curved-underline.svg" height="" alt=""/>
+                            </div>
+                            <div class="card-body text-center pt-2 pb-5">
+                                <ul class="list-unstyled">
+                                    <li class="list-group-item p-0 border-0">Bagel - $1.50</li>
+                                    <li class="list-group-item p-0 border-0">Muffin - $2.25</li>
+                                    <li class="list-group-item p-0 border-0">Cookie - $1.75</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cards End -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Bootstrap About Section -->
+        <section class="px-4 py-5 bg-primary text-light" id="about">
+            <div class="container">
+                <div class="">
+                    <h2 class="pb-2 display-4">About Us</h2>
+                    <img src="/images/undraw_underline-light.svg" alt="">
+                </div>
+                
+                <div class="row py-5 row-cols-1 row-cols-lg-3">
+                    <div class="feature col mb-4">
+                        <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                            <i class="bi bi-shop"></i>
+                        </div>
+                        <h3 class="fs-2">Locally Owend</h3>
+                        <p>
+                            Paragraph of text beneath the heading to explain the heading.
+                            We'll add onto it with another sentence and probably just keep
+                            going until we run out of words.
+                        </p>
+                    </div>
+
+                    <div class="feature col mb-4">
+                        <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                            <i class="bi bi-globe-americas"></i>
+                        </div>
+                        <h3 class="fs-2">Locally Sourced</h3>
+                        <p>
+                            Paragraph of text beneath the heading to explain the heading.
+                            We'll add onto it with another sentence and probably just keep
+                            going until we run out of words.
+                        </p>
+                    </div>
+
+                    <div class="feature col mb-4">
+                        <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                            <i class="bi bi-emoji-smile"></i>
+                        </div>
+                        <h3 class="fs-2">Friendly Atomsphere</h3>
+                        <p>
+                            Paragraph of text beneath the heading to explain the heading.
+                            We'll add onto it with another sentence and probably just keep
+                            going until we run out of words.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bootstrap Contact Section -->
+        <section id="contact" class="py-4">
+            <div class="container py-4 col-md-5 text-center">
+                <h2 class="text-primary display-5">Contact</h2>
+                <img src="/images/undraw_underline.svg" alt=""/>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Bootstrap Footer -->
+    <footer class="py-5 d-flex flex-column justify-content-center align-items-center bg-secondary">
+        <ul class="col-md-4 justify-content-center list-unstyled d-flex">
+            <li class="ms-3">
+                <a href="#">
+                    <i class="bi bi-facebook fs-4 text-700"></i>
+                    <span class="visually-hidden-focusable">Facebook</span>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="#">
+                    <i class="bi bi-instagram fs-4 text-700"></i>
+                    <span class="visually-hidden-focusable">Instagram</span>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="#">
+                    <i class="bi bi-linkedin fs-4 text-700"></i>
+                    <span class="visually-hidden-focusable">LinkedIn</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="d-flex gap-4 justify-content-between">
+            <p class="text-center"><small>&copy; 2022 Company, Inc</small></p>
+            <a href="#"><small>Terms of Use</small></a>
+            <a href="#"><small>Privacy Policy</small></a>
+        </div>
+
+        <p class="text-center">
+            <small>Web Design & Devlopment by Marcus Hugo crafted with ❤️ using
+                Bootstrap 5.</small>
+        </p>
+       
+        <p class="text-center">
+            <small>
+                Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/images/food/coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </small>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
