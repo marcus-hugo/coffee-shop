@@ -1,4 +1,4 @@
-# Landing page for a fictional cleaning service
+# Landing page for a fictional coffee shop
 
 ## Highlights
 
